@@ -1,0 +1,106 @@
+#Header
+{
+    background-color: aqua;
+}
+#TuiLogo{background-color: #000000;}
+#WebsiteTitel{background-color: #757171;}
+#Payoff{background-color: #aeaaaa;}
+nav{background-color: #4472c4;}
+
+@media screen and (min-width: 1280px)
+{
+    #HamburgerNav
+    {
+        display: none;
+    }
+    #PCnav
+    {
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        text-align: center;
+        flex-grow: 1;
+        flex-basis: 0%;
+        list-style: none;
+    }  
+    #PCitems
+    {
+        list-style: none;
+    }
+    #PCitems a:hover
+    {
+        color: white;
+    }
+    #TabletNav
+    {
+        display:none;
+    } 
+}
+
+@media screen and (min-width: 481px) and (max-width: 1279px)
+{
+    #HamburgerNav
+    {
+        display: none;
+    }
+    #TabletNav
+    {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        flex-grow: 1;
+        flex-basis: 0%;
+        list-style: none;
+    }  
+    #PCnav
+    {
+        display: none;
+    } 
+}
+@media screen and (max-width: 480px)
+{
+    #PCnav
+    {
+        display: none;
+    }
+    #HamburgerNav
+    {
+        width: 100%;
+        background-color: #4472c4;
+        display: block;
+        
+    }
+    #TabletNav
+    {
+        display: none;
+    }
+    aside{background-color: #fff2cc;}
+   
+    #hamitems a:hover{background-color: #5a96fd;}
+    #hamitems a
+    {
+       display: block;
+       width: 100%;
+       box-sizing: border-box;
+       border-top: 1px solid white;
+    }
+    #Hamburger
+    {
+        display: none;
+    }
+    #HamburgerNav label
+    {
+        display: inline-block;
+        color: white;
+        background-color: #4472c4;
+        font-size: 1.2em;
+        font-style: normal;
+        padding: 10px;
+        
+    }
+    #hamitems
+    {
+        display: none;
+    }
+    #HamburgerNav input:checked ~ #hamitems {display: block;}  
+}

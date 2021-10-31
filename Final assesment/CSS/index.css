@@ -1,0 +1,166 @@
+#Header
+{
+    background-color: aqua;
+}
+
+@media screen and (min-width: 1280px)
+{
+    #HamburgerNav
+    {
+        display: none;
+    }
+    #PCnav
+    {
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        text-align: center;
+        flex-grow: 1;
+        flex-basis: 0%;
+        list-style: none;
+    }  
+    #PCitems
+    {
+        list-style: none;
+    }
+    #pcitems a:hover
+    {
+        color: white;
+    }
+    #TabletNav
+    {
+        display:none;
+    } 
+    #FotoCuracao
+    {
+        float: right;
+    }
+    #FotoSpanje
+    {
+        float: right;
+    }
+    #FotoGriekenland
+    {
+        float: right;
+    }
+    aside{background-color:  #fff2cc;float: right; width: 49%;}
+    #CuracaoHeader{font-size: 16px;}
+    #CuracaoArticle{background-color: #e2efda;float: left;clear: both; width: 50%;}
+    #SpanjeArticle {background-color: #c6e0b4;float: left;clear: both; width: 50%;}
+    #GriekenlandArticle {background-color: #a9d08e;float: left;clear: both; width: 50%;}
+    footer{background-color: #d6dce4; float: left;clear: both; width: 50%;}
+    #cookies{background-color: rgb(255, 91, 91); float: right; width: 50%; opacity: 50%; position: fixed;}
+}
+@media screen and (min-width: 481px) and (max-width: 1279px)
+{
+    #HamburgerNav
+    {
+        display: none;
+    }
+    #TabletNav
+    {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        flex-grow: 1;
+        flex-basis: 0%;
+        list-style: none;
+    }  
+    #PCnav
+    {
+        display: none;
+    } 
+    #FotoCuracao
+    {
+        float: left;
+    }
+    #FotoSpanje
+    {
+        float: left;
+    }
+    #FotoGriekenland
+    {
+        float: left;
+    }
+    aside{background-color: #fff2cc;float: right; width: 49%;}
+    #CuracaoArticle{background-color: #a9d08e;float: left;clear: both; width: 50%;}
+    #SpanjeArticle {background-color: #c6e0b4;float: left;clear: both; width: 50%;}
+    #GriekenlandArticle{background-color: #e2efda; float: left;clear: both; width: 50%;}
+    footer{background-color: #d6dce4; float: left;clear: both; width: 50%;}
+    #cookies{background-color: #FFF; float: right; width: 50%;opacity: 50%; position: fixed;}
+}
+
+@media screen and (max-width: 480px)
+{
+    #PCnav
+    {
+        display: none;
+    }
+    #HamburgerNav
+    {
+        width: 100%;
+        background-color: #4472c4;
+        display: block;
+        
+    }
+    #TabletNav
+    {
+        display: none;
+    }
+    aside{background-color: #fff2cc;}
+   
+    #hamitems a:hover{background-color: #5a96fd;}
+    #hamitems a
+    {
+       display: block;
+       width: 100%;
+       box-sizing: border-box;
+       border-top: 1px solid white;
+    }
+    #Hamburger
+    {
+        display: none;
+    }
+    #HamburgerNav label
+    {
+        display: inline-block;
+        color: white;
+        background-color: #4472c4;
+        font-size: 1.2em;
+        font-style: normal;
+        padding: 10px;
+        
+    }
+    #hamitems
+    {
+        display: none;
+    }
+    #HamburgerNav input:checked ~ #hamitems {display: block;}  
+    #CuracaoArticle{background-color: #a9d08e;float: left; width: 50%;}
+    #SpanjeArticle {background-color: #c6e0b4;float: left;clear: both; width: 50%;}
+    #GriekenlandArticle{background-color: #e2efda; float: left;clear: both; width: 50%;}
+    aside{background-color: #fff2cc;float: right;clear: both; width: 49%;}
+    footer{background-color: #d6dce4;clear: both; width: 50%;}
+    #cookies{background-color: #FFF; width: 50%; opacity: 50%; position: fixed;}
+}
+#TuiLogo{background-color: #000000;}
+#WebsiteTitel{background-color: #757171;}
+#Payoff{background-color: #aeaaaa;}
+nav{background-color: #4472c4;}
+video{background-color: #f8cbad;}
+
+#FotoCuracao{width: 15%; height: 15%;}
+
+#FotoSpanje{clear: both; width: 15%; height: 15%; }
+
+#FotoGriekenland {clear: both; width: 15%; height: 15%;}
+p
+{
+    line-height: normal;
+    padding: 5px;
+    letter-spacing: normal;
+    text-indent: 3px;
+    word-spacing: normal;
+}
+
+
